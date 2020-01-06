@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>RESTAURANT DETAILS</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+.middle{
+margin-top:50%;
+margin-left:40%;
+margin-right:20%;
+}
+.imgAlign{
+margin-top:50px;
+margin-left:200px;
+margin-right:200px;
+}
+body{background:linear-gradient(to bottom, rgba(0, 0, 0,0.9), rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.7), rgba(0,0,0,1)), url(back2.jpg)no-repeat; width:100%;background-size:cover;color:white;font-family:sans-serif;}
+}
+.imgAlign1{align:center;}
+</style>
+
+</head>
+
+<body>
+<form name="restaurant" >
+<div align="center">
+<!--<h1><b>LimeTray</b></h1>
+<h4><b>Food Delivery App</b></h4><br/><br/><br/>-->
+<h2 style="font-family:seriff; font-size:25"><b>RESTAURANT DETAILS</b></h2><br/>
+Reataurant Id: <input type="text" id="rid"/>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+Reataurant Name: <input type="text" id="rname"/>
+<br/><br/>
+
+<b>Menu: <select>
+						<option value="" >Select...</option>
+						<option value="appetizer" class="menu">APPETIZERS</option>
+						<option value="main" class="menu">MAIN COURSE</option>
+						<option value="dessert" class="menu">DESSERT</option>
+						</select>
+						
+
+
+<span id="err"></span><br/><br/>
+
+
+
+
+<div align="center" class="imgAlign">
+Item 1: <input type="text" id="item1"/>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+Price: <input type="text" id="price1"/><br/><br/>
+Item 2: <input type="text" id="item2"/>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+Price: <input type="text" id="price2"/><br/><br/>
+Item 3: <input type="text" id="item3"/>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+Price: <input type="text" id="price3"/><br/><br/>
+
+
+<b>Stops: <select>
+
+						<option value="" >Select...</option>
+						<option value="bglr" class="tolocation">BANGLORE</option>
+						<option value="cmbtre" class="tolocation">COIMBATORE</option>
+						<option value="kochi" class="tolocation">KOCHI</option>
+						</select>
+						 </b> </br></br>
+<input type="submit" value="ADD RESTAURANT" name="btn" onclick="return submitform()"/>
+
+</div>
+</center>
+</form>
+<script>
+/*function dropdownValidation1() {
+var to = document.getElementById("to");
+var from = document.getElementById("from");
+if (to.options[to.selectedIndex].value ==   from.options[from.selectedIndex].value) {
+document.getElementById("err").innerHTML="Make sure 'From location' and 'To location' are not same."
+} else {
+document.getElementById("err").innerHTML="";
+}
+}
+function submitform(){
+var y=dropdownValidation1();
+if(y)
+return true;
+else
+return false;
+}*/
+</script>
+</body>
+</html>
